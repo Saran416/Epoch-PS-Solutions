@@ -7,11 +7,15 @@
 - I realized that there are some outliers from blox plot, so i removed the points using InterQuartileRange.
 - I also checked if there were any duplicated rows.
 
-## Plotting
+## K-Means Clustering:
 
-## Clustering and Inferences
+I initialized the centroids by randomly assign k points from the point as the centroids. Then the model calculates the distances between points and centroids, classifies them, calculates their mean and then reassigns the means as centroids. This process is repeated till the change in centroids is lower than a particular tolerence(in my case 0.01).
 
-## References
+To find the optimum k, I took help of elbow plot, which basically calculates the inertias (sum of distances between centroids and points in that cluster) and plots them.
+
+## Inferences
+
+### References
 
 https://python-visualization.github.io/folium/latest/reference.html
 
@@ -53,6 +57,6 @@ I also tried predicting the sentiments using LSTM (just for the sake of experime
   **Predicted_sentiment**: Neutral<br>
   **Actual_sentiment:** Neutral
 
-## References:
+### References:
 
 https://www.kaggle.com/code/yairhadad1/cnn-for-handwritten-alphabets
