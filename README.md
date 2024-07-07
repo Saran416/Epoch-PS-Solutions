@@ -18,3 +18,29 @@ Now that I extracted the text from the images, I saw that the sentiment analysis
 I vectorized the text using count vectorization, since the vocabulary size is also small(because of the small dataset) and using KNN I predicted their sentiments.
 
 I also tried predicting the sentiments using LSTM (just for the sake of experimentation) and as expected the model was unable to predict properly.
+
+## My model predictions:
+
+**line_1.png**: I AM REALLY ANNOYED BY YOUR CONSTANT COMPLAINING AND YOU NEVER OFFER ANY SOLUTIONS WHICH IS VERY UNHELPFUL AND NEGATIVE
+**Predicted_sentiment**: Happy
+**Actual_sentiment:** Angry
+
+**line_2.png** : IT IS FRUSTRATING THAT YOU NEVER PAY ATTENTION DURING DISCUSSIONS AND YOUR LACK OF FOCUS IS REALLY AFFECTING OUR PROGRESS
+**Predicted_sentiment**: Angry
+**Actual_sentiment:** Angry
+
+**line_3.png** : I AM DELIGHTED BY YOUR FRIENDLINESS AND YOU ALWAYS MAKE EVERYONE FEEL WELCOME WHICH FOSTERS A SENSE OF COMMUNITY
+**Predicted_sentiment**: Happy
+**Actual_sentiment:** Happy
+
+**line_4.png** : IT SS WONDERFUL THAT YOU ALWAYS SHOW KINDNESS ANO YOUR EMPATHY TOWARDS OTHERS IS TRULY HEARTWARMINT AND APPRECIATED
+**Predicted_sentiment**: Happy
+**Actual_sentiment:** Happy
+
+**line_5.png** : YOUR ANALYSIS OF THE DATA NAS ACCURATE AND WELL PRESENTED PROVIDING A CLEAR UNDERSTANDING OF THE TRENDS AND PATTERNS
+**Predicted_sentiment**: Neutral
+**Actual_sentiment:** Neutral
+
+**line_6.png** : THE MEETING MINUTES YOW PREPARED WERE DETAILED AND NELL ORGANIZED ACCURATELY REFLECTING THE DISCUSJIONS AND DECISIONS MADE
+**Predicted_sentiment**: Neutral
+**Actual_sentiment:** Neutral
