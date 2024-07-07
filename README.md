@@ -20,7 +20,7 @@ To find the optimum k, I took help of elbow plot, which basically calculates the
 - I verified this by using folium plots: <br>
   The first digit of a PIN indicates the zone, the second indicates the sub-zone, and the third, combined with the first two, indicates the sorting district within that zone. The final three digits are assigned to individual post offices within the sorting district.
 
-- Some plots obtained:
+- Some plots obtained: <br>
   ![Alt text](./Task-1/Images/elbow_plot.png)
   ![Alt text](./Task-1/Images/1.png)
   ![Alt text](./Task-1/Images/2.png)
