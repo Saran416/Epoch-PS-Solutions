@@ -7,6 +7,14 @@
 - I realized that there are some outliers from blox plot, so i removed the points using InterQuartileRange.
 - I also checked if there were any duplicated rows.
 
+## Plotting
+
+## Clustering and Inferences
+
+## References
+
+https://python-visualization.github.io/folium/latest/reference.html
+
 # Task 2
 
 ## My approach to the problem:
@@ -21,26 +29,30 @@ I also tried predicting the sentiments using LSTM (just for the sake of experime
 
 ## My model predictions:
 
-**line_1.png**: I AM REALLY ANNOYED BY YOUR CONSTANT COMPLAINING AND YOU NEVER OFFER ANY SOLUTIONS WHICH IS VERY UNHELPFUL AND NEGATIVE<br>
-**Predicted_sentiment**: Happy<br>
-**Actual_sentiment:** Angry
+- **line_1.png**: I AM REALLY ANNOYED BY YOUR CONSTANT COMPLAINING AND YOU NEVER OFFER ANY SOLUTIONS WHICH IS VERY UNHELPFUL AND NEGATIVE<br>
+  **Predicted_sentiment**: Happy<br>
+  **Actual_sentiment:** Angry
 
-**line_2.png** : IT IS FRUSTRATING THAT YOU NEVER PAY ATTENTION DURING DISCUSSIONS AND YOUR LACK OF FOCUS IS REALLY AFFECTING OUR PROGRESS<br>
-**Predicted_sentiment**: Angry<br>
-**Actual_sentiment:** Angry
+- **line_2.png** : IT IS FRUSTRATING THAT YOU NEVER PAY ATTENTION DURING DISCUSSIONS AND YOUR LACK OF FOCUS IS REALLY AFFECTING OUR PROGRESS<br>
+  **Predicted_sentiment**: Angry<br>
+  **Actual_sentiment:** Angry
 
-**line_3.png** : I AM DELIGHTED BY YOUR FRIENDLINESS AND YOU ALWAYS MAKE EVERYONE FEEL WELCOME WHICH FOSTERS A SENSE OF COMMUNITY<br>
-**Predicted_sentiment**: Happy<br>
-**Actual_sentiment:** Happy
+- **line_3.png** : I AM DELIGHTED BY YOUR FRIENDLINESS AND YOU ALWAYS MAKE EVERYONE FEEL WELCOME WHICH FOSTERS A SENSE OF COMMUNITY<br>
+  **Predicted_sentiment**: Happy<br>
+  **Actual_sentiment:** Happy
 
-**line_4.png** : IT SS WONDERFUL THAT YOU ALWAYS SHOW KINDNESS ANO YOUR EMPATHY TOWARDS OTHERS IS TRULY HEARTWARMINT AND APPRECIATED<br>
-**Predicted_sentiment**: Happy<br>
-**Actual_sentiment:** Happy
+- **line_4.png** : IT SS WONDERFUL THAT YOU ALWAYS SHOW KINDNESS ANO YOUR EMPATHY TOWARDS OTHERS IS TRULY HEARTWARMINT AND APPRECIATED<br>
+  **Predicted_sentiment**: Happy<br>
+  **Actual_sentiment:** Happy
 
-**line_5.png** : YOUR ANALYSIS OF THE DATA NAS ACCURATE AND WELL PRESENTED PROVIDING A CLEAR UNDERSTANDING OF THE TRENDS AND PATTERNS<br>
-**Predicted_sentiment**: Neutral<br>
-**Actual_sentiment:** Neutral
+- **line_5.png** : YOUR ANALYSIS OF THE DATA NAS ACCURATE AND WELL PRESENTED PROVIDING A CLEAR UNDERSTANDING OF THE TRENDS AND PATTERNS<br>
+  **Predicted_sentiment**: Neutral<br>
+  **Actual_sentiment:** Neutral
 
-**line_6.png** : THE MEETING MINUTES YOW PREPARED WERE DETAILED AND NELL ORGANIZED ACCURATELY REFLECTING THE DISCUSJIONS AND DECISIONS MADE<br>
-**Predicted_sentiment**: Neutral<br>
-**Actual_sentiment:** Neutral
+- **line_6.png** : THE MEETING MINUTES YOW PREPARED WERE DETAILED AND NELL ORGANIZED ACCURATELY REFLECTING THE DISCUSJIONS AND DECISIONS MADE<br>
+  **Predicted_sentiment**: Neutral<br>
+  **Actual_sentiment:** Neutral
+
+## References:
+
+https://www.kaggle.com/code/yairhadad1/cnn-for-handwritten-alphabets
