@@ -1,4 +1,4 @@
-# Task 1
+# [Task 1](./Task-1/)
 
 ## Data Cleaning:
 
@@ -19,7 +19,7 @@ To find the optimum k, I took help of elbow plot, which basically calculates the
 
 https://python-visualization.github.io/folium/latest/reference.html
 
-# Task 2
+# [Task 2](./Task-2/)
 
 ## My approach to the problem:
 
