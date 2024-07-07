@@ -13,7 +13,17 @@ I initialized the centroids by randomly assign k points from the point as the ce
 
 To find the optimum k, I took help of elbow plot, which basically calculates the inertias (sum of distances between centroids and points in that cluster) and plots them.
 
-## Inferences
+## Inferences and Results
+
+- From the elbow plot clearly the optimum k is somewhere in between 10 to 15, and the number of district in the state is 13 and lies in this region. So the districts clearly divide the state in an optimum way.
+
+- I verified this by using folium plots: <br>
+  The first digit of a PIN indicates the zone, the second indicates the sub-zone, and the third, combined with the first two, indicates the sorting district within that zone. The final three digits are assigned to individual post offices within the sorting district.
+
+- Some plots obtained:
+  ![Alt text](./Task-1/Images/elbow_plot.png)
+  ![Alt text](./Task-1/Images/1.png)
+  ![Alt text](./Task-1/Images/2.png)
 
 ### References:
 
