@@ -15,7 +15,7 @@ To find the optimum k, I took help of elbow plot, which basically calculates the
 
 ## Inferences
 
-### References
+### References:
 
 https://python-visualization.github.io/folium/latest/reference.html
 
